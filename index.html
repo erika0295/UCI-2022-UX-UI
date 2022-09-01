@@ -2,11 +2,21 @@
 <html>
 <head>
 <title>Hi Erika</title>
+<link rel="stylesheet" href="img.css">
 </head>
 <body>
 
 <h1>Hello World!</h1>
 <p>This is a paragraph.</p>
-
+<img src="download.jpeg"
 </body>
 </html>
+
+<picture>
+    <source media="(min-width:650px)" srcset="download.jpeg">
+    
+    <source media="(min-width:465px)" srcset="download.jpeg">
+    
+    <img src="download.jpeg" alt="dog" style="width:auto;">
+    
+  </picture>
